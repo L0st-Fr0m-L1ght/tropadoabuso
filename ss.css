@@ -53,3 +53,18 @@ ul p {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+
+@media (max-width: 600px) {
+    .sunny {
+        flex-direction: column;
+    }
+
+    body img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    body {
+        padding: 10px;
+    }
+}
